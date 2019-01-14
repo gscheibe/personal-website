@@ -104,7 +104,7 @@ class HomeIndex extends React.Component {
 
 
                         <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
+                            <li><a href="https://www.linkedin.com/in/gracescheibe/" className="button">Full Portfolio</a></li>
                         </ul>
                     </section>
 

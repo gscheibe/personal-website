@@ -316,42 +316,45 @@
         "owner": "internal-data-bridge"
       }
     },
-    "01cef027-1460-50a3-82c8-62b5488c64c5": {
-      "resolve": "/Users/gracescheibe/git/personal-website/node_modules/gatsby-plugin-manifest",
-      "id": "01cef027-1460-50a3-82c8-62b5488c64c5",
-      "name": "gatsby-plugin-manifest",
-      "version": "2.0.13",
+    "f6764ff5-b1e6-5fa8-b21f-9cf6f6c47d4c": {
+      "resolve": "/Users/gracescheibe/git/personal-website/node_modules/gatsby-plugin-google-analytics",
+      "id": "f6764ff5-b1e6-5fa8-b21f-9cf6f6c47d4c",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.9",
       "pluginOptions": {
         "plugins": [],
-        "name": "gatsby-starter-default",
-        "short_name": "starter",
-        "start_url": "/",
-        "background_color": "#663399",
-        "theme_color": "#663399",
-        "display": "minimal-ui",
-        "icon": "src/assets/images/website-icon.png"
+        "trackingId": "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+        "head": false,
+        "anonymize": true,
+        "respectDNT": true,
+        "exclude": [
+          "/preview/**",
+          "/do-not-track/me/too/"
+        ],
+        "optimizeId": "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+        "experimentId": "YOUR_GOOGLE_EXPERIMENT_ID",
+        "variationId": "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
+        "sampleRate": 5,
+        "siteSpeedSampleRate": 10,
+        "cookieDomain": "example.com"
       },
-      "nodeAPIs": [
-        "onPostBootstrap"
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
       ],
-      "browserAPIs": [],
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/gracescheibe/git/personal-website/node_modules/gatsby-plugin-manifest",
+      "pluginFilepath": "/Users/gracescheibe/git/personal-website/node_modules/gatsby-plugin-google-analytics",
       "packageJson": {
-        "name": "gatsby-plugin-manifest",
-        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
-        "version": "2.0.13",
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.9",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
-          "favicon",
-          "icons",
-          "manifest.webmanifest",
-          "progressive-web-app",
-          "pwa"
+          "google analytics"
         ],
         "author": {
           "name": "Kyle Mathews",
@@ -362,14 +365,6 @@
           {
             "name": "@babel/runtime",
             "version": "^7.0.0"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.21.0"
           }
         ],
         "devDependencies": [
@@ -402,7 +397,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8b8bb112adee8c6057e0316c7a6f43aa",
+        "contentDigest": "1f1efb44a5a77fea8bb81951f1bd38eb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -583,7 +578,7 @@
       "resolve": "/Users/gracescheibe/git/personal-website",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "499787d83348818d2fb75ac650f10cf7",
+      "version": "f5fd98e277be4c848454ebf7d1ddab63",
       "pluginOptions": {
         "plugins": []
       },
@@ -604,6 +599,10 @@
           {
             "name": "gatsby",
             "version": "^2.0.76"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.9"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -655,7 +654,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "979c8cbc092347df1ea5e41d50cd67db",
+        "contentDigest": "22ba6c1e21db06e1376728961fe6e6eb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -773,12 +772,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-14T20:17:43.768Z",
+      "buildTime": "2019-01-14T21:20:09.196Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b08ff6fbdfdec1890c14226eb6e7e8d9",
+        "contentDigest": "5ef1c46ee48a2af36f2d3f9d17f47916",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -846,7 +845,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "773015175f5c8e09ebb7acbd227afa7c"
+    "PLUGINS_HASH": "33c34f195e3ebede266b113d5ffe6807"
   },
   "componentDataDependencies": {
     "nodes": {},
