@@ -772,12 +772,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-14T21:20:09.196Z",
+      "buildTime": "2019-01-17T15:55:54.681Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "5ef1c46ee48a2af36f2d3f9d17f47916",
+        "contentDigest": "38d7293d82b56dd6f334c2a5444cd9e4",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
